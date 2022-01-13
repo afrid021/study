@@ -17,8 +17,6 @@ int main() {
     for(int i = 2; i<input; i++) {
         printf("%d ", i); //value of i is printed
 
-        printf("%d ", input%i); //reminder of input/i is printed
-        
-        printf("\n"); // new line is printed
+        printf("%d \n", input%i); //reminder of input/i is printed
     }
 }
